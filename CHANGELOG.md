@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [0.9.3](https://github.com/CircleCI-Public/circleci-yaml-language-server/compare/0.9.2...0.9.3) (2024-02-06)
+
+
+### Bug Fixes
+
+* build binary using static linking ([#271](https://github.com/CircleCI-Public/circleci-yaml-language-server/issues/271)) ([770540b](https://github.com/CircleCI-Public/circleci-yaml-language-server/commit/770540bd84ea9630453aba058f150266cb411336))
+* go to definition for local orbs were not working ([#274](https://github.com/CircleCI-Public/circleci-yaml-language-server/issues/274)) ([b089c7b](https://github.com/CircleCI-Public/circleci-yaml-language-server/commit/b089c7b32914549a4a032d746e0834d15253e81b))
+* remove parsing error for local orbs ([#273](https://github.com/CircleCI-Public/circleci-yaml-language-server/issues/273)) ([bbfa6b6](https://github.com/CircleCI-Public/circleci-yaml-language-server/commit/bbfa6b600cededd964c235225f4105a52c431400))
+* resource classes windows medium and windows large not correctly detected ([a964dac](https://github.com/CircleCI-Public/circleci-yaml-language-server/commit/a964dac3f32adf56b5502dadab6d3b153b881470))
+* send diagnostics when config couldn't be parsed ([#262](https://github.com/CircleCI-Public/circleci-yaml-language-server/issues/262)) ([5c374dc](https://github.com/CircleCI-Public/circleci-yaml-language-server/commit/5c374dce7b94dffc2eae72950352dad1b3035f76))
+* valid images ([#269](https://github.com/CircleCI-Public/circleci-yaml-language-server/issues/269)) ([a384470](https://github.com/CircleCI-Public/circleci-yaml-language-server/commit/a38447094216d5dfdfba032407690c223b2addb4))
+
 ## [0.9.2](https://github.com/CircleCI-Public/circleci-yaml-language-server/compare/0.9.1...0.9.2) (2023-12-13)
 
 
